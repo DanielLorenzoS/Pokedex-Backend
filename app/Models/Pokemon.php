@@ -14,6 +14,7 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Pokemon extends Model
 {
+  protected $table = 'pokemons';
   public $timestamps = false;
   
     static $rules = [

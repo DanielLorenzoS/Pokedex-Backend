@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/pok', function () {
+    return view('index');
+});
+
 use App\Http\Controllers\PokemonController;
 
 Route::get('/pokemons', [PokemonController::class, 'index']);
