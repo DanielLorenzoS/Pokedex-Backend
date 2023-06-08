@@ -12,6 +12,6 @@ class VerifyCsrfToken extends Middleware
      * @var array<int, string>
      */
     protected $except = [
-        'http://localhost:8000/pokemons/*', 'http://localhost:8000/pokemons'
+        'http://localhost:8000/*', 'https://laravel-production-e6f0.up.railway.app/*'
     ];
 }
